@@ -2,13 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container{
     width: 100%;
-    height: 100vh;
     background: rgb(204, 222, 228);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .nav{
@@ -17,10 +15,77 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 6px 4px -4px #aaaaaa;
-    padding: 50px;
+    padding: 30px 60px;
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
+    color: rgb(7, 71, 92);
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    font-size: 24px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(7, 71, 92);
+    font-weight: 500;
+}
+.nav ul li a:hover{
+    color: rgb(137, 183, 199);
+}
+.nav ul li i{
+    font-size: 24px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.mainText{
+    width: 50%;
+    position: relative;
+    top: 90px;
+    left: 150px;
+}
+.mainText h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: rgb(7, 71, 92);
+}
+.mainText h2{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(13, 139, 182);
+}
+.mainText p{
+    font-size: 22px;
+    color: rgb(13, 139, 182);
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 30px;
+}
+button{
+    width: 180px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(7, 71, 92);
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+}
+button:hover{
+    background: rgb(13, 139, 182);
+    cursor: pointer;
+}
+.main img{
+    width: 390px;
+    background-repeat: no-repeat;
+    margin-right: 60px;
 }
