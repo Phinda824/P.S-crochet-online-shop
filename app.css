@@ -9,7 +9,6 @@ body{
 }
 .container{
     width: 100%;
-    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -43,6 +42,7 @@ body{
     text-decoration: none;
     color: rgb(7, 71, 92);
     font-weight: 500;
+    cursor: pointer;
 }
 .nav ul li a:hover{
     color: rgb(137, 183, 199);
@@ -116,6 +116,10 @@ button:hover{
 }
 
 /*main section*/
+.section-shop{
+    position: relative;
+    top: 100px;
+}
 h3{
     font-size: 30px;
     font-weight: 600;
@@ -125,7 +129,7 @@ h3{
     line-height: 0.1em;
     margin: 10px 0 20px;
     position: relative;
-    top: 80px;
+    top: 30px;
 }
 h3 span{
     background: rgb(238, 232, 232); 
@@ -136,7 +140,7 @@ h3 span{
     justify-content: space-around;
     margin-top: 30px;
     position: relative;
-    top: 150px;
+    top: 50px;
 }
 .crd{
     width: 300px;
